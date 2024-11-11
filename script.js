@@ -1,7 +1,7 @@
 async function generateBlog() {
     const prompt = document.getElementById("prompt").value;
     const output = document.getElementById("output");
-    output.innerText = "Generating... The model may still be loading; please wait a moment.";
+    output.innerText = "Generating...  please wait a moment.";
 
     try {
         const response = await fetch("https://api-inference.huggingface.co/models/EleutherAI/gpt-neo-125M", {
