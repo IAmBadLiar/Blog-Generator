@@ -1,0 +1,10 @@
+body {
+    background-color: #f4f4f9;
+}
+
+.blog-output {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    max-height: 400px;
+    overflow-y: auto;
+}
